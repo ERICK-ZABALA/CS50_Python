@@ -1,4 +1,4 @@
-<img src="./media/image2.png" style="width:1.8in;height:1.75833in"
+<img src="./media/image2.png" style="width:3.8in;height:1.75833in"
 alt="GitHub - sahinyes/CS50_Python: Harvard CS50 - Python solutions" />
 
 **CS50 Introduction to Programming with Python**
