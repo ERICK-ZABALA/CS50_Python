@@ -23,7 +23,7 @@ browser, or you can write code on your own PC or Mac.
     <img src="./media/image1.png" style="width:1.16389in;height:1.77917in"
 alt="CS50P" />
     <p> 2022</p>
-    <h3> Harvard CS50: Introduction to Programing with Python </h3>
+    <h3> * * * CS50P * * * </h3>
 </div>
 
 
