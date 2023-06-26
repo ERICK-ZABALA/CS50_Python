@@ -1,4 +1,4 @@
-<img src="./media/image2.png" style="width:3.8in;height:1.75833in"
+<img src="./media/image2.png" style="width:1.8in;height:1.75833in"
 alt="GitHub - sahinyes/CS50_Python: Harvard CS50 - Python solutions" />
 
 **CS50 Introduction to Programming with Python**
@@ -16,7 +16,7 @@ Hands-on opportunities for lots of practice. Exercises inspired by
 real-world programming problems. No software required except for a web
 browser, or you can write code on your own PC or Mac.
 
-<img src="./media/image1.png" style="width:3.16389in;height:1.77917in"
+<img src="./media/image1.png" style="width:1.16389in;height:1.77917in"
 alt="CS50P" />
 
 Whereas [<u>CS50x</u>](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) itself
