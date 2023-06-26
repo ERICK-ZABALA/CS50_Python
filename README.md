@@ -1,5 +1,8 @@
-<img src="./media/image2.png" style="width:1.8in;height:1.75833in"
-alt="GitHub - sahinyes/CS50_Python: Harvard CS50 - Python solutions" />
+<div align=center>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png" height=180>
+    <p> 2022</p>
+    <h1> Harvard CS50: Introduction to Programing with Python </h1>
+</div>
 
 **CS50 Introduction to Programming with Python**
 
