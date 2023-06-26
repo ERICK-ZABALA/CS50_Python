@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+          // TODO: Add code to check answers to questions
+
+          // Run scipt once DOM is loaded
+          document.addEventListener('DOMContentLoaded', function(){
+
+            // When correct answer is clicked, change color green
+            let correct = document.querySelectorAll(".correct");
+            for (let i = 0; i < correct.length; i++) {
+                correct[i].addEventListener('click', function() {
+                correct[i].style.backgroundColor = 'green';
+            // send a comment as Correct
+                document.querySelector('#feedback1').innerHTML = 'Correct!';
+            });
+            }
+
+            // When incorrect answer is clicked, change color red
+            let incorrects = document.querySelectorAll(".incorrect");
+            for (let i = 0; i < incorrects.length; i++) {
+                incorrects[i].addEventListener('click', function() {
+                incorrects[i].style.backgroundColor = 'red';
+            // send a comment as Incoorect!
+                document.querySelector('#feedback1').innerHTML = 'Incorrect';
+            });
+            }
+
+            // When correct answer is clicked, change color green
+            let correct1 = document.querySelectorAll(".correct1");
+            for (let i = 0; i < correct1.length; i++) {
+                correct1[i].addEventListener('click', function() {
+                correct1[i].style.backgroundColor = 'green';
+            // send a comment as Correct
+                document.querySelector('#feedback2').innerHTML = 'Correct!';
+            });
+            }
+
+            // When incorrect answer is clicked, change color red
+            let incorrects1 = document.querySelectorAll(".incorrect1");
+            for (let i = 0; i < incorrects1.length; i++) {
+                incorrects1[i].addEventListener('click', function() {
+                incorrects1[i].style.backgroundColor = 'red';
+            // send a comment as Incoorect!
+                document.querySelector('#feedback2').innerHTML = 'Incorrect';
+            });
+            }
+
+
+            // Check free response submission
+            document.querySelector('#check').addEventListener('click',function(){
+                let input = document.querySelector('input');
+                if(input.value === 'This is CS50'){
+                    input.style.backgroundColor = 'green';
+                    document.querySelector('#feedback3').innerHTML = 'Correct';
+                } else {
+                    input.style.backgroundColor = 'red';
+                    document.querySelector('#feedback3').innerHTML = 'Incorrect!';
+                }
+            })
+
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the physical address of a network interface card?</h3>
+
+                <button class="incorrect">A. NIC</button>
+                <button class="correct">B. MAC</button>
+                <button class="incorrect">C. IP</button>
+                <button class="incorrect">D. ARP</button>
+
+                <p id="feedback1"></p>
+
+                <h3>In a class B IP address, which two octets are reserved for the host?</h3>
+
+                <button class="incorrect1">A. First and Second.</button>
+                <button class="incorrect1">B.Second and Fourth.</button>
+                <button class="incorrect1">C.Second and Third.</button>
+                <button class="correct1">D.Third and Fourth.</button>
+
+                <p id="feedback2"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3> What is the most famous course about Introduction to compute Science in the Web?</h3>
+                <input type="text"></input>
+                <button id="check">Check Answer</button>
+
+                <p id="feedback3"></p>
+
+            </div>
+        </div>
+        </body>
+</html>

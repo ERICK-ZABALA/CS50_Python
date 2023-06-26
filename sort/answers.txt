@@ -1,0 +1,40 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+Because using data random50000.txt took a time 0m7.899s and sorted50000.txt was 0m0.621s
+And all this information applied to Bubble Sort. worse case: O(n^2) better case:Ω (n)
+
+sort2 uses: Merge Sort
+
+How do you know?:
+Because using data random50000.txt took a time 0m0.703s and sorted50000.txt was 0m0.726s
+And all this information applied to Merge Sort. worse case:O (n log n) better case: Ω (n log n)
+
+sort3 uses: Selection Sort
+
+How do you know?:
+Because using data random50000.txt took a time 0m3.237s and sorted50000.txt was 0m3.285s
+And all this information applied to Selection Sort. worse case:O(n^2) better case: Ω (n^2)
+
+Result:
+
+	    TIME
+		bad case	better case
+DATA	REVERSE	    RANDOM	    SORTED	 sort1	sort2	sort3
+5000	0m0.088s	0m0.107s	0m0.058s BS
+5000	0m0.061s	0m0.029s	0m0.051s		MS
+5000	0m0.052s	0m0.094s	0m0.053s	   		     SS
+
+	    TIME
+		bad case	better case
+DATA	REVERSE	    RANDOM      SORTED	 sort1	sort2	sort3
+10000	0m0.269s	0m0.317s	0m0.075s BS
+10000	0m0.174s	0m0.080s	0m0.079s		MS
+10000	0m0.179s	0m0.168s	0m0.180s 			    SS
+
+	    TIME
+		bad case	better case
+DATA	REVERSE	    RANDOM	    SORTED	 sort1	sort2	sort3
+50000	0m5.585s	0m7.899s	0m0.621s BS
+50000	0m0.876s	0m0.703s	0m0.726s		MS
+50000	0m3.346s	0m3.237s	0m3.285s			    SS

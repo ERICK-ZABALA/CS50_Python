@@ -1,0 +1,9 @@
+do
+Pick up height
+if height is a number between 0 to 8
+    print row times height
+        print dot times height-1
+        print hash=dot+1 times height+row
+while n == 0
+nothing
+quit
