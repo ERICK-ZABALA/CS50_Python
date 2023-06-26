@@ -19,8 +19,12 @@ Hands-on opportunities for lots of practice. Exercises inspired by
 real-world programming problems. No software required except for a web
 browser, or you can write code on your own PC or Mac.
 
-<img src="./media/image1.png" style="width:1.16389in;height:1.77917in"
+<div align=center>
+    <img src="./media/image1.png" style="width:1.16389in;height:1.77917in"
 alt="CS50P" />
+    <p> 2022</p>
+</div>
+
 
 Whereas [<u>CS50x</u>](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) itself
 focuses on computer science more generally as well as programming with
